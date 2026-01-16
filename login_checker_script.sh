@@ -34,6 +34,6 @@ fi
 using IP address $IP_ADDRESS"
 } >> $LOG_FILE"
 
-
+exit 0
 
 
