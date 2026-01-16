@@ -13,7 +13,7 @@ if [[ "$EUID" -ne 0 ]]; then
 fi
 
 # Copy login_checker_script to /usr/local/bin/ and make it executable
-cp "./login_checker_script.sh" "LOGIN_CHECKER_SCRIPT"
+cp "./login_checker_script.sh" "$LOGIN_CHECKER_SCRIPT"
 chmod +x "$LOGIN_CHECKER_SCRIPT"
 
 # Create and restrict log file
